@@ -29,8 +29,8 @@ $ git commit -m "Первый коммит"
    На открывшейся странице введите имя репозитория (Repository name) и нажмите кнопку Create repository. 
    В своем локальном репозитории теперь выполните команду:
  
- $ git remote add NEWREPOZIT https://github.com/username/myproject.git
+ $ git remote add newrepozit git@github.com:verbatium80/newrepozit.git
   
  9. Отправим все наши изменения на удаленный репозитарий:
 
-$ git push -u origin master
+$ git push -u newrepozit master
